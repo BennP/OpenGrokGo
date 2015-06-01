@@ -1,0 +1,13 @@
+[
+    {
+        "caption": "OpenGrok",
+        "mnemonic": "O",
+        "id": "opengrok",
+        "children":
+        [
+            { "command": "open_grok_go", "args": {"code_direction": "Caller"}, "caption": "Jump to line" },
+            { "command": "open_grok_go", "args": {"code_direction": "Called"}, "caption": "Jump to caller line" },
+            { "command": "open_grok_version", "caption": "Set version" }
+        ]
+    }
+]
